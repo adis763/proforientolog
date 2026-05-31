@@ -1,0 +1,5 @@
+export const EMAILJS_SERVICE_ID    = 'service_a038rcu'
+export const EMAILJS_PUBLIC_KEY    = 'oDpdmJ-JoFMEA5U70'
+export const TEMPLATE_CONTACT     = 'template_w2gmk29'
+export const TEMPLATE_MATERIALS   = 'YOUR_TEMPLATE_MATERIALS'
+export const TEMPLATE_QUIZ        = 'template_miq719j'
