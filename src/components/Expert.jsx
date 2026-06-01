@@ -1,4 +1,5 @@
 import { EXPERT, STATS } from '../data'
+import olgaImg from '../assets/olga_about_me.jpg'
 import styles from './Expert.module.css'
 
 export default function Expert() {
@@ -8,7 +9,7 @@ export default function Expert() {
         <p className="section-label">Эксперт</p>
 
         <div className={styles.card}>
-          <div className={styles.avatar}>{EXPERT.initials}</div>
+          <img src={olgaImg} alt={EXPERT.name} className={styles.photo} />
           <div className={styles.info}>
             <h2 className={styles.name}>{EXPERT.name}</h2>
             <p className={styles.role}>{EXPERT.title}</p>
